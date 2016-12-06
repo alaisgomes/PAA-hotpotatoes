@@ -9,4 +9,4 @@ Grupo:
 Participação:
 Aline: 30 Questões referentes a um algoritmo de grafo, Dijkstra.
 Álvaro: 
-Diego: 
+Diego: 30 Questões referentes a Multiplicação em cadeia de matriz (parte 1)
