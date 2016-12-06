@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>Aline Tavares</dc:creator>
+    <dc:creator>die</dc:creator>
+    <dc:title>Multiplica&amp;#x00E7;&amp;#x00E3;o de cadeia de matrizes</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>6</version>
+
+<data>
+<title>Multiplica&amp;#x00E7;&amp;#x00E3;o de cadeia de matrizes</title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>Qual o objetivo do algoritmo de multiplica&amp;#x00E7;&amp;#x00E3;o de cadeia de matrizes? Marque a op&amp;#x00E7;&amp;#x00E3;o correta. </question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>O objetivo &amp;#x00E9; multiplicar as matrizes dadas.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>O objetivo &amp;#x00E9; encontrar a forma mais eficiente de multiplicar as matrizes dadas.</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>O objetivo &amp;#x00E9; encontrar os limites superior e inferior da quantidade de opera&amp;#x00E7;&amp;#x00F5;es necess&amp;#x00E1;rias.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>O objetivo &amp;#x00E9; calcular as diagonais da matriz equivalente a multiplica&amp;#x00E7;&amp;#x00E3;o.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question> A multiplica&amp;#x00E7;&amp;#x00E3;o de matrizes &amp;#x00E9; associativa. Como podemos associar a multiplica&amp;#x00E7;&amp;#x00E3;o de ABC ? (ulitize somente parenteses e letras maiusculas)</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>2</question-type><answers><answer><text>(AB)C</text><feedback>Outra forma &amp;#x00E9; A(BC), na qual a multiplica&amp;#x00E7;&amp;#x00E3;o de B por C ter&amp;#x00E1; prioridade.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>A(BC)</text><feedback>Outra forma &amp;#x00E9;  (AB)C, na qual a multiplica&amp;#x00E7;&amp;#x00E3;o de A por B ter&amp;#x00E1; prioridade.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>suponha que:
+ A &amp;#x00E9; uma matriz 10 &amp;#x00D7; 30,
+B &amp;#x00E9; uma matriz 30 &amp;#x00D7; 5,
+C &amp;#x00E9; uma matriz 5 &amp;#x00D7; 60
+
+Quantas opera&amp;#x00E7;&amp;#x00F5;es ser&amp;#x00E3;o realizadas por (AB)C ?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>2</question-type><answers><answer><text>4500</text><feedback>(AB)C = (10&amp;#x00D7;30&amp;#x00D7;5) + (10&amp;#x00D7;5&amp;#x00D7;60) = 1500 + 3000 = 4500</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback>(AB)C = (10&amp;#x00D7;30&amp;#x00D7;5) + (10&amp;#x00D7;5&amp;#x00D7;60) = 1500 + 3000 = 4500</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>suponha que:
+ A &amp;#x00E9; uma matriz 10 &amp;#x00D7; 30,
+B &amp;#x00E9; uma matriz 30 &amp;#x00D7; 5,
+C &amp;#x00E9; uma matriz 5 &amp;#x00D7; 60
+
+Quantas opera&amp;#x00E7;&amp;#x00F5;es ser&amp;#x00E3;o realizadas por A(BC) ?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>2</question-type><answers><answer><text>27000</text><feedback>(30&amp;#x00D7;5&amp;#x00D7;60) + (10&amp;#x00D7;30&amp;#x00D7;60) = 9000 + 18000</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Dos Exemplos anteriores, a forma associativa com melhor eficiencia? </question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>2</question-type><answers><answer><text>(AB)C</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>A(BC)</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>A melhor estrat&amp;#x00E9;gia para procurar a forma mais eficiente &amp;#x00E9; testar todas as possibilidades.</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Verdadeiro</text><feedback>Extrat&amp;#x00E9;gia muito custosa. Possui complexidade exponencial.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Falso</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>A melhor estrat&amp;#x00E9;gia &amp;#x00E9; subdividir o problema em problemas menores, e a partir da solu&amp;#x00E7;&amp;#x00E3;o desses problemas, solucionar o problema original. </question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Verdadeiro</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Falso</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Seja a Nota&amp;#x00E7;&amp;#x00E3;o Ai..j, onde i&amp;#x003C; j, &amp;#x00E9; o produto da matrizes AiAi+1..Aj. 
+Para i &amp;#x003C; j -&amp;#x003E; Ai..k x  Ak+1 ..Aj = Ai..j  
+
+O que podemos fazer em seguida ? Marque todas as op&amp;#x00E7;&amp;#x00F5;es corretas</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Dividir o problema em subproblemas</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Resolver de maneira &amp;#x00F3;tima os subproblemas</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Combinar as solu&amp;#x00E7;&amp;#x00F5;es dos subproblemas</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Resolver a opera&amp;#x00E7;&amp;#x00E3;o original, antes de resolver os subproblemas</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Seja m[i,j] o n&amp;#x00FA;mero m&amp;#x00ED;nimo de produtos em Ai..j
+Para i &amp;#x003C; j, m[i,j] = numero minimo de Ai..k mais o numero minimo Ak+1..j
+ </question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>verdadeiro</text><feedback>Errado!!  m[i,j] = m[i..k] + m[k+1..j] + custo de Ai..k x Ak+1..j</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>falso</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Dado m[i,j] = m[i,k] + m[k+1,j] +pi-1x pk x pj para i =/= j  e  0 para i=j. 
+Basta ent&amp;#x00E3;o encontrar o melhor k atrav&amp;#x00E9;s da defini&amp;#x00E7;&amp;#x00E3;o recursiva. 
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Verdadeiro</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Falso</text><feedback>A complexidade continua sendo exponencial. Para resolver o problema utilizaremos uma abordagem bottom-up, utilizando programa&amp;#x00E7;&amp;#x00E3;o dinamica.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Qual a id&amp;#x00E9;ia geral da solu&amp;#x00E7;&amp;#x00E3;o por programa&amp;#x00E7;&amp;#x00E3;o dinamica para este problema?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>dividir o programa recursivamente, resolvendo todas as possibilidades possiveis de k</text><feedback>Como na quest&amp;#x00E3;o anterior, recurs&amp;#x00E3;o nesse caso envolve muito retrabalho. O certo &amp;#x00E9; armazenar os resultados particiais para consulta posterior</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Testar todos os k&apos;s possiveis em ordem crescente de i at&amp;#x00E9; j.</text><feedback>Met&amp;#x00F3;do da for&amp;#x00E7;a bruta n&amp;#x00E3;o &amp;#x00E9; eficiente</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Reutilizar os calculos de custo de cada etapa para as pr&amp;#x00F3;ximas</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Testar todos os k&apos;s possiveis em ordem decrescente de i at&amp;#x00E9; j.</text><feedback>Met&amp;#x00F3;do da for&amp;#x00E7;a bruta n&amp;#x00E3;o &amp;#x00E9; eficiente</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>O seguinte Pseudo C&amp;#x00F3;digo representa o problema:
+Matrix-chain-order (p) ; p = &amp;#x003C;po, p1, &amp;#x2026;, pn&amp;#x003E;
+1)	 n &amp;#x2190; length[p] &amp;#x2212; 1
+2)	 for i &amp;#x2190; 1 to n
+3) 	     do m[i, i] &amp;#x2190; 0
+4) 	     for l &amp;#x2190; 2 to n ; 	&apos;l&apos; &amp;#x00E9; o comprimento do produto.
+5) 	          do for i &amp;#x2190; 1 to n &amp;#x2212; l + 1
+6)		do j &amp;#x2190; i + l &amp;#x2212;1
+7) 		    m[i, j] &amp;#x2190; inf
+8) 		    for k &amp;#x2190; i to j &amp;#x2212; 1
+9) 	                      do q &amp;#x2190; m[i, k] + m[k+1, j] + pi-1pk pj
+10) 		             if q &amp;#x003C; m[i, j]
+11) 			  then m[i, j] &amp;#x2190; q
+12)			  s[i, j] &amp;#x2190; k
+13)return m and s</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>verdadeiro</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>falso</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Para o c&amp;#x00F3;digo:
+Matrix-chain-order (p) ; p = &amp;#x003C;po, p1, &amp;#x2026;, pn&amp;#x003E;
+1)	 n &amp;#x2190; length[p] &amp;#x2212; 1
+2)	 for i &amp;#x2190; 1 to n
+3) 	     do m[i, i] &amp;#x2190; 0
+4) 	     for l &amp;#x2190; 2 to n ; 	&apos;l&apos; &amp;#x00E9; o comprimento do produto.
+5) 	          do for i &amp;#x2190; 1 to n &amp;#x2212; l + 1
+6)		do j &amp;#x2190; i + l &amp;#x2212;1
+7) 		    m[i, j] &amp;#x2190; inf
+8) 		    for k &amp;#x2190; i to j &amp;#x2212; 1
+9) 	                      do q &amp;#x2190; m[i, k] + m[k+1, j] + pi-1pk pj
+10) 		             if q &amp;#x003C; m[i, j]
+11) 			  then m[i, j] &amp;#x2190; q
+12)			  s[i, j] &amp;#x2190; k
+13)return m and s
+
+
+Qual &amp;#x00E9; a entrada?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>o vetor de dimens&amp;#x00F5;es das matrizes p = &amp;#x003C;p0, p1, p2.. pn&amp;#x003E; de tamanho n+1</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a matriz Ai de dimens&amp;#x00F5;es pi-1, pi</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>A tabela m[1..n][1..n] com os custos m[i,j]</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>A tabela s[1..n][1..n] com os menores k de m[i,j]</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Para o c&amp;#x00F3;digo:
+Matrix-chain-order (p) ; p = &amp;#x003C;po, p1, &amp;#x2026;, pn&amp;#x003E;
+1)	 n &amp;#x2190; length[p] &amp;#x2212; 1
+2)	 for i &amp;#x2190; 1 to n
+3) 	     do m[i, i] &amp;#x2190; 0
+4) 	     for l &amp;#x2190; 2 to n ; 	&apos;l&apos; &amp;#x00E9; o comprimento do produto.
+5) 	          do for i &amp;#x2190; 1 to n &amp;#x2212; l + 1
+6)		do j &amp;#x2190; i + l &amp;#x2212;1
+7) 		    m[i, j] &amp;#x2190; inf
+8) 		    for k &amp;#x2190; i to j &amp;#x2212; 1
+9) 	                      do q &amp;#x2190; m[i, k] + m[k+1, j] + pi-1pk pj
+10) 		             if q &amp;#x003C; m[i, j]
+11) 			  then m[i, j] &amp;#x2190; q
+12)			  s[i, j] &amp;#x2190; k
+13)return m and s
+
+
+O primeiro passo &amp;#x00E9; preencher a matriz dos custos com os custos 0, em qual linha do c&amp;#x00F3;digo isso &amp;#x00E9; feito ?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>2</question-type><answers><answer><text>2</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>3</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>2 e 3</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Para o c&amp;#x00F3;digo:
+Matrix-chain-order (p) ; p = &amp;#x003C;po, p1, &amp;#x2026;, pn&amp;#x003E;
+1)	 n &amp;#x2190; length[p] &amp;#x2212; 1
+2)	 for i &amp;#x2190; 1 to n
+3) 	     do m[i, i] &amp;#x2190; 0
+4) 	     for l &amp;#x2190; 2 to n ; 	&apos;l&apos; &amp;#x00E9; o comprimento do produto.
+5) 	          do for i &amp;#x2190; 1 to n &amp;#x2212; l + 1
+6)		do j &amp;#x2190; i + l &amp;#x2212;1
+7) 		    m[i, j] &amp;#x2190; inf
+8) 		    for k &amp;#x2190; i to j &amp;#x2212; 1
+9) 	                      do q &amp;#x2190; m[i, k] + m[k+1, j] + pi-1pk pj
+10) 		             if q &amp;#x003C; m[i, j]
+11) 			  then m[i, j] &amp;#x2190; q
+12)			  s[i, j] &amp;#x2190; k
+13)return m and s
+
+Depois de preencher a diagonal principal de m[i,j], o proximo passo &amp;#x00E9;:</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Preencher a diagonal inferior</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Preencher a diagonal superior</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Para o c&amp;#x00F3;digo:
+Matrix-chain-order (p) ; p = &amp;#x003C;po, p1, &amp;#x2026;, pn&amp;#x003E;
+1)	 n &amp;#x2190; length[p] &amp;#x2212; 1
+2)	 for i &amp;#x2190; 1 to n
+3) 	     do m[i, i] &amp;#x2190; 0
+4) 	     for l &amp;#x2190; 2 to n ; 	&apos;l&apos; &amp;#x00E9; o comprimento do produto.
+5) 	          do for i &amp;#x2190; 1 to n &amp;#x2212; l + 1
+6)		do j &amp;#x2190; i + l &amp;#x2212;1
+7) 		    m[i, j] &amp;#x2190; inf
+8) 		    for k &amp;#x2190; i to j &amp;#x2212; 1
+9) 	                      do q &amp;#x2190; m[i, k] + m[k+1, j] + pi-1pk pj
+10) 		             if q &amp;#x003C; m[i, j]
+11) 			  then m[i, j] &amp;#x2190; q
+12)			  s[i, j] &amp;#x2190; k
+13)return m and s
+
+Uma entrada da tabela m[i,j] &amp;#x00E9; necess&amp;#x00E1;rio calcular m[i,k] + m[k+1, j] + pi-1 x pk x pj para cada k poss&amp;#x00ED;vel.</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Verdadeiro</text><feedback>Somente o menor custo ser&amp;#x00E1; registrado na tabela, logo &amp;#x00E9; necess&amp;#x00E1;rio calcular todos os custos</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Falso</text><feedback>Somente o menor custo ser&amp;#x00E1; registrado na tabela, logo &amp;#x00E9; necess&amp;#x00E1;rio calcular todos os custos</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Para o c&amp;#x00F3;digo:
+Matrix-chain-order (p) ; p = &amp;#x003C;po, p1, &amp;#x2026;, pn&amp;#x003E;
+1)	 n &amp;#x2190; length[p] &amp;#x2212; 1
+2)	 for i &amp;#x2190; 1 to n
+3) 	     do m[i, i] &amp;#x2190; 0
+4) 	     for l &amp;#x2190; 2 to n ; 	&apos;l&apos; &amp;#x00E9; o comprimento do produto.
+5) 	          do for i &amp;#x2190; 1 to n &amp;#x2212; l + 1
+6)		do j &amp;#x2190; i + l &amp;#x2212;1
+7) 		    m[i, j] &amp;#x2190; inf
+8) 		    for k &amp;#x2190; i to j &amp;#x2212; 1
+9) 	                      do q &amp;#x2190; m[i, k] + m[k+1, j] + pi-1pk pj
+10) 		             if q &amp;#x003C; m[i, j]
+11) 			  then m[i, j] &amp;#x2190; q
+12)			  s[i, j] &amp;#x2190; k
+13)return m and s
+
+Uma entrada da tabela s[i,j] &amp;#x00E9; necess&amp;#x00E1;rio calcular m[i,k] + m[k+1, j] + pi-1 x pk x pj para cada k poss&amp;#x00ED;vel.</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Verdadeiro</text><feedback>A tabela s guarda os valores k que resultam nos custos mais baixos na tabela m, logo &amp;#x00E9; necess&amp;#x00E1;rio calcular todas as possibilidades, o que j&amp;#x00E1; &amp;#x00E9; feito ao preencher a tabela m.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Falso</text><feedback>A tabela s guarda os valores k que resultam nos custos mais baixos na tabela m, logo &amp;#x00E9; necess&amp;#x00E1;rio calcular todas as possibilidades, o que j&amp;#x00E1; &amp;#x00E9; feito ao preencher a tabela m.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Para o c&amp;#x00F3;digo:
+Matrix-chain-order (p) ; p = &amp;#x003C;po, p1, &amp;#x2026;, pn&amp;#x003E;
+1)	 n &amp;#x2190; length[p] &amp;#x2212; 1
+2)	 for i &amp;#x2190; 1 to n
+3) 	     do m[i, i] &amp;#x2190; 0
+4) 	     for l &amp;#x2190; 2 to n ; 	&apos;l&apos; &amp;#x00E9; o comprimento do produto.
+5) 	          do for i &amp;#x2190; 1 to n &amp;#x2212; l + 1
+6)		do j &amp;#x2190; i + l &amp;#x2212;1
+7) 		    m[i, j] &amp;#x2190; inf
+8) 		    for k &amp;#x2190; i to j &amp;#x2212; 1
+9) 	                      do q &amp;#x2190; m[i, k] + m[k+1, j] + pi-1pk pj
+10) 		             if q &amp;#x003C; m[i, j]
+11) 			  then m[i, j] &amp;#x2190; q
+12)			  s[i, j] &amp;#x2190; k
+13)return m and s
+
+Ao final da execu&amp;#x00E7;&amp;#x00E3;o o algoritmo dar&amp;#x00E1; informar&amp;#x00E1; a melhor maneira de se associar as opera&amp;#x00E7;&amp;#x00F5;es. </question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Verdadeiro</text><feedback>O algoritmo retorna as tabelas s e m completamente preenchidas, o que significa que ainda &amp;#x00E9; necess&amp;#x00E1;rio interpretar as tabelas</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Falso</text><feedback>O algoritmo retorna as tabelas s e m completamente preenchidas, o que significa que ainda &amp;#x00E9; necess&amp;#x00E1;rio interpretar as tabelas</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Para o c&amp;#x00F3;digo:
+Matrix-chain-order (p) ; p = &amp;#x003C;po, p1, &amp;#x2026;, pn&amp;#x003E;
+1)	 n &amp;#x2190; length[p] &amp;#x2212; 1
+2)	 for i &amp;#x2190; 1 to n
+3) 	     do m[i, i] &amp;#x2190; 0
+4) 	     for l &amp;#x2190; 2 to n ; 	&apos;l&apos; &amp;#x00E9; o comprimento do produto.
+5) 	          do for i &amp;#x2190; 1 to n &amp;#x2212; l + 1
+6)		do j &amp;#x2190; i + l &amp;#x2212;1
+7) 		    m[i, j] &amp;#x2190; inf
+8) 		    for k &amp;#x2190; i to j &amp;#x2212; 1
+9) 	                      do q &amp;#x2190; m[i, k] + m[k+1, j] + pi-1pk pj
+10) 		             if q &amp;#x003C; m[i, j]
+11) 			  then m[i, j] &amp;#x2190; q
+12)			  s[i, j] &amp;#x2190; k
+13)return m and s
+
+Em qual linha &amp;#x00E9; calculado o custo da c&amp;#x00E9;dula atual?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>2</question-type><answers><answer><text>9</text><feedback>Perceba que o calculo est&amp;#x00E1; dentro de um loop, para que sejam testados todos os k poss&amp;#x00ED;veis.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Para o c&amp;#x00F3;digo:
+Matrix-chain-order (p) ; p = &amp;#x003C;po, p1, &amp;#x2026;, pn&amp;#x003E;
+1)	 n &amp;#x2190; length[p] &amp;#x2212; 1
+2)	 for i &amp;#x2190; 1 to n
+3) 	     do m[i, i] &amp;#x2190; 0
+4) 	     for l &amp;#x2190; 2 to n ; 	&apos;l&apos; &amp;#x00E9; o comprimento do produto.
+5) 	          do for i &amp;#x2190; 1 to n &amp;#x2212; l + 1
+6)		do j &amp;#x2190; i + l &amp;#x2212;1
+7) 		    m[i, j] &amp;#x2190; inf
+8) 		    for k &amp;#x2190; i to j &amp;#x2212; 1
+9) 	                      do q &amp;#x2190; m[i, k] + m[k+1, j] + pi-1pk pj
+10) 		             if q &amp;#x003C; m[i, j]
+11) 			  then m[i, j] &amp;#x2190; q
+12)			  s[i, j] &amp;#x2190; k
+13)return m and s
+
+
+Em qual linha o algoritimo utiliza valores j&amp;#x00E1; calculados?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>2</question-type><answers><answer><text>9</text><feedback>em m[i, k] + m[k+1, j] + pi-1pk pj, os valores m[i,k] e m[k+1,j] j&amp;#x00E1; foram calculados e representam valores das ultimas diagonais. Basta</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Para p = {30,35,15,05,10,20,25}
+
+Qual ser&amp;#x00E1; o valor de m[1,2]?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>750</text><feedback>Lembre-se que  m[i,j =]m[i,k] + m[k+1, j] + pi-1 x pk x pj</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>2625</text><feedback>Lembre-se que  m[i,j =]m[i,k] + m[k+1, j] + pi-1 x pk x pj</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>1000</text><feedback>Lembre-se que  m[i,j =]m[i,k] + m[k+1, j] + pi-1 x pk x pj</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>15750</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>5000</text><feedback>Lembre-se que  m[i,j =]m[i,k] + m[k+1, j] + pi-1 x pk x pj</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Para p = {30,35,15,05,10,20,25}
+
+Qual ser&amp;#x00E1; o valor de m[2,3]?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>750</text><feedback>Lembre-se que  m[i,j =]m[i,k] + m[k+1, j] + pi-1 x pk x pj</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>2625</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>1000</text><feedback>Lembre-se que  m[i,j =]m[i,k] + m[k+1, j] + pi-1 x pk x pj</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>15750</text><feedback>Lembre-se que  m[i,j =]m[i,k] + m[k+1, j] + pi-1 x pk x pj</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>5000</text><feedback>Lembre-se que  m[i,j =]m[i,k] + m[k+1, j] + pi-1 x pk x pj</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Para p = {30,35,15,05,10,20,25}
+
+Qual ser&amp;#x00E1; o valor de m[3,4]?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>750</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>2625</text><feedback>Lembre-se que  m[i,j =]m[i,k] + m[k+1, j] + pi-1 x pk x pj</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>1000</text><feedback>Lembre-se que  m[i,j =]m[i,k] + m[k+1, j] + pi-1 x pk x pj</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>15750</text><feedback>Lembre-se que  m[i,j =]m[i,k] + m[k+1, j] + pi-1 x pk x pj</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>5000</text><feedback>Lembre-se que  m[i,j =]m[i,k] + m[k+1, j] + pi-1 x pk x pj</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Para p = {30,35,15,05,10,20,25}
+
+Qual ser&amp;#x00E1; o valor de m[4,5]?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>750</text><feedback>Lembre-se que  m[i,j =]m[i,k] + m[k+1, j] + pi-1 x pk x pj</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>2625</text><feedback>Lembre-se que  m[i,j =]m[i,k] + m[k+1, j] + pi-1 x pk x pj</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>1000</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>15750</text><feedback>Lembre-se que  m[i,j =]m[i,k] + m[k+1, j] + pi-1 x pk x pj</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>5000</text><feedback>Lembre-se que  m[i,j =]m[i,k] + m[k+1, j] + pi-1 x pk x pj</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Para p = {30,35,15,05,10,20,25}
+
+Qual ser&amp;#x00E1; o valor de m[5,6]?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>750</text><feedback>Lembre-se que  m[i,j =]m[i,k] + m[k+1, j] + pi-1 x pk x pj</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>2625</text><feedback>Lembre-se que  m[i,j =]m[i,k] + m[k+1, j] + pi-1 x pk x pj</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>1000</text><feedback>Lembre-se que  m[i,j =]m[i,k] + m[k+1, j] + pi-1 x pk x pj</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>15750</text><feedback>Lembre-se que  m[i,j =]m[i,k] + m[k+1, j] + pi-1 x pk x pj</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>5000</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Para p = {30,35,15,05,10,20,25}
+
+Quais k&apos;s usaremos para calcular m[1,3]</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>1</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>2</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>3</text><feedback>lembresse que i&amp;#x003C;=k&amp;#x003C;j</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>4</text><feedback>lembresse que i&amp;#x003C;=k&amp;#x003C;j</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Para p = {30,35,15,05,10,20,25}
+
+Quais m[i,j]&apos;s previamente calculados usaremos para calcular m[1,3] para k = 1 ?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>m[1,1]</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>m[1,2]</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>m[2,3]</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>m[3, 3]</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Para p = {30,35,15,05,10,20,25}
+
+Quais m[i,j]&apos;s  previamente calculados usaremos para calcular m[1,3] para k = 2 ?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>m[1,1]</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>m[1, 2]</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>m[2, 3]</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>m[3, 3]</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Para p = {30,35,15,05,10,20,25}
+
+m[1,6] ser&amp;#x00E1; igual a:</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>2</question-type><answers><answer><text>15125</text><feedback>Utilizaremos todos os valores da tabela j&amp;#x00E1; preenchida para encontrar m[1,6], testando para todos os ks possiveis.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Para p = {30,35,15,05,10,20,25}
+e a seguinte tabela S:
+
+	1	2	3	4	5	6
+1	x	1	1	3	3	3
+2	x      	x	2	3	3	3
+3	x	x	x	3	3	3
+4	x	x	x	x	4	5
+5	x	x	x	x	x	5
+6	x	x	x	x	x	x
+
+
+A melhor associa&amp;#x00E7;&amp;#x00E3;o &amp;#x00E9;:</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>2</question-type><answers><answer><text>(A1(A2A3))((A4A5)A6)</text><feedback>Para gerar a posi&amp;#x00E7;&amp;#x00E3;o correta dos parentes come&amp;#x00E7;amos por s[1,6], logo a primeira separa&amp;#x00E7;&amp;#x00E3;o &amp;#x00E9; feita em (A1A2A3)(A4A5A6) indicado pela por k =3. Agora olhamos para os fragmentos para (A1A2A3), s[1,3]= 1, o que leva para (A1(A2A3)). O mesmo ocorre para (A4A5A6), s[4,6]=5, ent&amp;#x00E3;o ((A4A5)A6). Juntando tudo:  (A1(A2A3))((A4A5)A6)</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question></question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>2</question-type><answers><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question></question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>2</question-type><answers><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question></question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>2</question-type><answers><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question></question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>2</question-type><answers><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question></question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>2</question-type><answers><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question></question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>2</question-type><answers><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Quiz</exercise-subtitle>
+<instructions></instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Correct answers: </correct-answers>
+<show-answer-caption>Show answer</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Your score is </your-score-is>
+<correct-indicator>:-)</correct-indicator>
+<incorrect-indicator>X</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Questions completed so far: </completed-so-far>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>small</font-size>
+<page-bg-color>#C0C0C0</page-bg-color>
+<title-color>#000000</title-color>
+<ex-bg-color>#FFFFFF</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#000000</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Check</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>
